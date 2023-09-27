@@ -4,7 +4,7 @@ object test {
         println("Hello, world")
         for( a <- 1 to 10){
             println( "Value of a: " + a );
-            Thread.sleep(20000L)
+            Thread.sleep(20000)
         }
     }
 }
